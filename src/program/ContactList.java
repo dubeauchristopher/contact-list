@@ -9,4 +9,9 @@ package program;
  * Description:
  */
 public class ContactList {
+
+    public static void main(String ars[]){
+
+    }
+
 }
