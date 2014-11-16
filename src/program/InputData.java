@@ -20,7 +20,7 @@
 		private int phoneNumber=0; //PhoneNumber is a data member
 		private String notes;  //Notes is a data member
 		
-		public void InputData (){   //Creat an object which reads and stores readers' inputs
+		public void InputData (){   //Creat an method which reads and stores readers' inputs
 			Scanner scanner = new Scanner(System.in); 
 			 firstName = scanner.next();
 			 lastName = scanner.next();
