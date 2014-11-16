@@ -8,8 +8,9 @@
 	 * Description:
 	 * Define a reuseable class InputDate.
 	 * One object of class InputDate reads and stores the users inputs.
-	 */ 
-	 import java.util.Scanner; // import Scanner 
+	 */
+
+	import java.util.Scanner;
 	public class  InputDate{ 
 
 		private String firstName; //FirstName is a data member
