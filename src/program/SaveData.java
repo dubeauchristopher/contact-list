@@ -1,5 +1,6 @@
 package program;
 
+import java.io.FileWriter;
 import java.util.List;
 
 /**
@@ -11,16 +12,20 @@ import java.util.List;
  * Description:
  */
 public class SaveData {
-    private List data[];
+    private List data;
 
     public SaveData(List list){
-
+         data = list;
     }
 
     /**
      * This method receives a List from memory and writes to a file.
      */
-    public void saveData(){
+
+    public void saveData(String csvFile, List<String[]> contents) throws Exception {
+        CSVWriter writer = new CSVWriter(new FileWriter(csvFile));
+        writer.writeAll(contents);
+        writer.close();
 
     }
 
