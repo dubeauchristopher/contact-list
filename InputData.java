@@ -1,5 +1,8 @@
 
 	/**
+ 	 * @author Christopher Dubeau
+	 * @author Ron Rayas
+ 	 * @author Harpreet Setia
 	 * @author Long Xu
 	 * Date: 11/16/14
 	 * Description:
