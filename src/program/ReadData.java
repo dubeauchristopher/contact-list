@@ -18,7 +18,7 @@ public class ReadData {
     private List<String[]> contactData[];
 
     /**
-     * THis method reads from a file and stores each line in a List
+     * This method reads from a file and stores each line in a List
      * @return
      */
     public List retrieveData(String csvFile) throws Exception {
