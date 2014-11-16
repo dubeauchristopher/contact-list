@@ -6,7 +6,7 @@
 	 * @author Long Xu
 	 * Date: 11/16/14
 	 * Description:
-	 * Define a reuseable class InputDate.
+	 * Define a reuseable class InputData.
 	 * One object of class InputDate reads and stores the users inputs.
 	 */
 
