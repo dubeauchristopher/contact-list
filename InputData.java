@@ -12,21 +12,21 @@
 	 import java.util.Scanner; // import Scanner 
 	public class  InputDate{ 
 
-		private String FirstName; //FirstName is a data member
-		private String LastName; // LastName is a data member
-		private String StreetAddress; // StreetAddress is a data member
-		private String EmailAddress;  // EmailAddress is a data member
-		private int PhoneNumber=0; //PhoneNumber is a data member
-		private String Notes;  //Notes is a data member
+		private String firstName; //FirstName is a data member
+		private String lastName; // LastName is a data member
+		private String streetAddress; // StreetAddress is a data member
+		private String emailAddress;  // EmailAddress is a data member
+		private int phoneNumber=0; //PhoneNumber is a data member
+		private String notes;  //Notes is a data member
 		
 		public void InputDate (){   //Creat an object which reads and stores readers' inputs
 			Scanner scanner = new Scanner(System.in); 
-			 FirstName = scanner.next();
-			 LastName = scanner.next();
-			 StreetAddress = scanner.next();
-			 EmailAddress = scanner.next();
-			 PhoneNumber = scanner.nextInt();
-			 Notes = scanner.next();
+			 firstName = scanner.next();
+			 lastName = scanner.next();
+			 streetAddress = scanner.next();
+			 emailAddress = scanner.next();
+			 phoneNumber = scanner.nextInt();
+			 notes = scanner.next();
 			 }
 	}
 }
