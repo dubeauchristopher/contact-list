@@ -1,10 +1,7 @@
 
 	/**
-	 * @author Christopher Dubeau
-	 * @author Ron Rayas
-	 * @author Harpreet Setia
 	 * @author Long Xu
-	 * Date: 11/15/14
+	 * Date: 11/16/14
 	 * Description:
 	 * Define a reuseable class InputDate.
 	 * One object of class InputDate reads and stores the users inputs.
@@ -29,5 +26,4 @@
 			 Notes = scanner.next();
 			 }
 	}
-v
 }
