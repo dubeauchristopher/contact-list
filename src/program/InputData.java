@@ -11,7 +11,8 @@ package program;
  */
 
 import java.util.Scanner;
-public class  InputData {
+
+public class InputData {
 
 	private String firstName; //FirstName is a data member
 	private String lastName; // LastName is a data member
@@ -20,7 +21,7 @@ public class  InputData {
 	private int phoneNumber=0; //PhoneNumber is a data member
 	private String notes;  //Notes is a data member
 
-	public void InputDate (){   //Creat an object which reads and stores readers' inputs
+	public void InputDate () {   //Creat an object which reads and stores readers' inputs
 		Scanner scanner = new Scanner(System.in);
 		 firstName = scanner.next();
 		 lastName = scanner.next();
@@ -28,6 +29,5 @@ public class  InputData {
 		 emailAddress = scanner.next();
 		 phoneNumber = scanner.nextInt();
 		 notes = scanner.next();
-		 }
+	}
 }
-
