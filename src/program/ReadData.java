@@ -23,12 +23,11 @@ public class ReadData {
      */
     public List retrieveData(String csvFile) throws Exception {
 
-        File file = new File(csvFile);
+        File file = new File("data.csv");
         List result = Files.readAllLines(file.toPath(), StandardCharsets.UTF_8);
         return result;
 
     }
-
 
 
 }
