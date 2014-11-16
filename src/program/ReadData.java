@@ -15,7 +15,7 @@ import java.util.List;
  */
 public class ReadData {
 
-    private List contactData[];
+    private List<String[]> contactData[];
 
     /**
      * THis method reads from a file and stores each line in a List

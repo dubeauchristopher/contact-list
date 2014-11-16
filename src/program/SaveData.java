@@ -12,9 +12,9 @@ import java.util.List;
  * Description:
  */
 public class SaveData {
-    private List data;
+    private List<String[]> data;
 
-    public SaveData(List list){
+    public SaveData(List<String[]> list){
          data = list;
     }
 
