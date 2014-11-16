@@ -10,12 +10,15 @@ package program;
  * Description:
  */
 
-/*
+
+/**
  * This Print class will print either the first name, last name, street address,
- * email,notes that the user inputs. Or it will print all of them.
+ * email,notes that the user inputs. Or it will print all of them. 
+ * The system prints all information about all contacts to the console,
+ * sorted by last name. 
  */
 public class Print {
-	private List data;
+	private List data; // data is an array
 	
 	public Print(List readData){
 		data = readData; 
@@ -30,7 +33,12 @@ public class Print {
 			//Data[i];
 	}
 	
+	public List sortByLastName(List<String[]> data ) { // This method will print the contacts and sort them by last name
+		return data;
+	}
+	
 	
 	
 
 }
+
