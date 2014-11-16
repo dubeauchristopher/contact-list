@@ -1,5 +1,7 @@
 package program;
 
+import java.util.List;
+
 /**
  * @author Christopher Dubeau
  * @author Ron Rayas
@@ -9,4 +11,15 @@ package program;
  * Description:
  */
 public class ReadData {
+
+    private List contactData[];
+
+    /**
+     * THis method reads from a file and stores each line in a List
+     * @return
+     */
+    public List retrieveData(){
+
+    }
+
 }

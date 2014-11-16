@@ -9,4 +9,11 @@ package program;
  * Description:
  */
 public class Menu {
+
+    /**
+     * This method will display a menu prompt to the user
+     */
+    public void displayMenu(){
+
+    }
 }
