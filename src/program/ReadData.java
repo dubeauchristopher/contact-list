@@ -18,16 +18,17 @@ public class ReadData {
     private List<String[]> contactData[];
 
     /**
-     * This method reads from a file and stores each line in a List
+     * THis method reads from a file and stores each line in a List
      * @return
      */
     public List retrieveData(String csvFile) throws Exception {
 
-        File file = new File("data.csv");
+        File file = new File(csvFile);
         List result = Files.readAllLines(file.toPath(), StandardCharsets.UTF_8);
         return result;
 
     }
+
 
 
 }
