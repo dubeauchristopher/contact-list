@@ -21,20 +21,25 @@ import java.util.List;
 public class Print {
 
     public Print(ReadData readData) {
-        ReadData data = readData;
+
 
     }
 
+    /**
+     * This method ?
+     * @return
+     */
     public String printData() {
-        return null;
-        //for loop
 
-        //for(i=0; i<Data.length;i++)
-        //Data[i];
     }
 
-    public List sortByLastName(List<String[]> data) { // This method will print the contacts and sort them by last name
-        return data;
+    /**
+     * This method will print the contacts and sort them by last name
+     * @param data
+     * @return
+     */
+    public List sortByLastName(List<String[]> data) {
+
     }
 
 

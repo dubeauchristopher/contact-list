@@ -10,7 +10,7 @@ package program;
  * One object of class InputData reads and stores the users inputs.
  */
 
-import java.util.Scanner;
+import java.util.List;
 
 public class InputData {
 
@@ -22,12 +22,6 @@ public class InputData {
 	private String notes;  //Notes is a data member
 
 	public List InputDate () {   //Create an object which reads and stores readers' inputs
-		Scanner scanner = new Scanner(System.in);
-		 firstName = scanner.next();
-		 lastName = scanner.next();
-		 streetAddress = scanner.next();
-		 emailAddress = scanner.next();
-		 phoneNumber = scanner.nextInt();
-		 notes = scanner.next();
+
 	}
 }

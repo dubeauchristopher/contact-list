@@ -8,7 +8,8 @@ import java.util.List;
  * @author Harpreet Setia
  * @author Long Xu
  * Date: 11/15/14
- * Description:
+ * Description: This class recieves a class and search string.
+ * The three public methods will use the string to seach by a given value and return a List
  */
 public class SearchData {
 
@@ -16,8 +17,7 @@ public class SearchData {
     private String key;
 
     public SearchData(ReadData readData, String searchKey){
-        readData = data;
-        key = searchKey;
+
     }
 
     /**
