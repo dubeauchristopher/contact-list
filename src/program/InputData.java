@@ -21,7 +21,7 @@ public class InputData {
 	private int phoneNumber=0; //PhoneNumber is a data member
 	private String notes;  //Notes is a data member
 
-	public List InputDate () {   //Create an object which reads and stores readers' inputs
+	public List InputData () {   //Create an object which reads and stores readers' inputs
 		Scanner scanner = new Scanner(System.in);
 		 firstName = scanner.next();
 		 lastName = scanner.next();
