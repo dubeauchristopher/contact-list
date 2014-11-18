@@ -11,7 +11,7 @@ package program;
 public class ContactList {
 
 
-    public static void main(String ars[]) throws Exception {
+    public static void main(String args[]) throws Exception {
 
         Menu menu = new Menu();
         InputData inputData = new InputData();
