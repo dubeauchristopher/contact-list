@@ -19,9 +19,10 @@ import java.util.List;
  * sorted by last name.
  */
 public class Print {
+    private List data;
+    private String result = "Testing the output of the program.";
 
     public Print(ReadData readData) {
-
 
     }
 
@@ -30,7 +31,7 @@ public class Print {
      * @return
      */
     public String printData() {
-
+        return result;
     }
 
     /**
@@ -39,7 +40,7 @@ public class Print {
      * @return
      */
     public List sortByLastName(List<String[]> data) {
-
+          return data;
     }
 
 

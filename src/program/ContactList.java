@@ -10,15 +10,22 @@ package program;
  */
 public class ContactList {
 
-    public static void main(String ars[]){
+
+    public static void main(String ars[]) throws Exception {
 
         Menu menu = new Menu();
         InputData inputData = new InputData();
+        String searchKey = menu.searchKey();
         ReadData readData = new ReadData();
-        SaveData saveData = new SaveData();
-        SearchData searchData = new SearchData();
-        Print print = new Print();
+        SaveData saveData = new SaveData(inputData.inputData());
+        SearchData searchData = new SearchData(readData.retrieveData(), searchKey);
+        Print print = new Print(readData);
+        System.out.println(print.printData());
 
     }
 
 }
+
+/*
+Testing the output of the program.
+ */

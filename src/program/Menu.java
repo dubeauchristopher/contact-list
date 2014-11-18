@@ -12,12 +12,23 @@ package program;
 
 public class Menu {
 
+    private int result;
+    private String searchKey;
+
     /**
      * This method prompts the user and returns an int.
      * @return
      */
     public int optionMenu() {
+        return result;
+    }
 
+    /**
+     * THis method asks the user for the search keyword
+     * @return
+     */
+    public String searchKey(){
+         return searchKey;
     }
 
 }

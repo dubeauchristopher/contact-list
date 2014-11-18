@@ -13,11 +13,15 @@ import java.util.List;
  */
 public class SearchData {
 
-    private List<String[]> data;
+    private List data;
     private String key;
+    private List zipResult;
+    private List emailResult;
+    private List lastNameResult;
 
-    public SearchData(ReadData readData, String searchKey){
-
+    public SearchData(List readData, String searchKey){
+        key = searchKey;
+        data = readData;
     }
 
     /**
@@ -25,7 +29,7 @@ public class SearchData {
      * @return
      */
     public List searchByLastName(){
-
+          return lastNameResult;
     }
 
     /**
@@ -33,7 +37,7 @@ public class SearchData {
      * @return
      */
     public List searchByZip(){
-
+        return zipResult;
     }
 
 
@@ -42,7 +46,7 @@ public class SearchData {
      * @return
      */
     public List searchByEmail(){
-
+         return emailResult;
     }
 
 

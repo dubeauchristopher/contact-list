@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class SaveData {
 
-    private List<String[]> data;
+    private List data;
 
     public SaveData(List list){
          data = list;
@@ -21,7 +21,7 @@ public class SaveData {
     /**
      * This method receives a List from memory and writes to a file.
      */
-    public void saveData(String csvFile, List contents) throws Exception {
+    public void saveData(List contents) throws Exception {
 
 
     }

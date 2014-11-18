@@ -12,14 +12,14 @@ import java.util.List;
  */
 public class ReadData {
 
-    private List<String[]> contactData[];
+    private List contactData;
 
     /**
      * This method reads from a file and stores each line in a List
      * @return
      */
-    public List retrieveData(String csvFile) throws Exception {
-
+    public List retrieveData() throws Exception {
+        return contactData;
 
     }
 

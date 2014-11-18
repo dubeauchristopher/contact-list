@@ -20,8 +20,13 @@ public class InputData {
 	private String emailAddress;  // EmailAddress is a data member
 	private int phoneNumber=0; //PhoneNumber is a data member
 	private String notes;  //Notes is a data member
+	private List list;
 
-	public List InputDate () {   //Create an object which reads and stores readers' inputs
-
+	/**
+	 * Create an object which reads and stores readers' inputs
+	 * @return
+	 */
+	public List inputData () {
+		 return list;
 	}
 }
